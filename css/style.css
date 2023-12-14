@@ -11,7 +11,28 @@
 /* LAYOUT
 /*******************************************/
 
+.main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(56, 46, 46);
+  color: aliceblue;
+  height: 100vh;
+}
 
+h3{
+  margin: 0;
+}
+
+.circle{
+  margin: auto;
+  margin-bottom: 2rem;
+  border-radius: 80%;
+  width: 5rem;
+  height: 5rem;
+  border: 2px solid #fff;
+  background: rgb(16, 9, 23);
+}
 
 /******************************************
 /* ADDITIONAL STYLES
