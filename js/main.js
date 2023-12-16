@@ -24,3 +24,5 @@ let adminOne = new Admin('paul', 'patrick')
 adminOne.deleteUser(userOne.lastname)
 userOne.logout()
 userTwo.login()
+
+// Finish project today
