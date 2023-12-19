@@ -25,30 +25,37 @@ adminOne.deleteUser(userOne.lastname)
 userOne.logout()
 userTwo.login()
 
-
-
-// let dope = [1,2,3,4,5,6,7]
-
-// let now = dope.forEach((x,y) => {
-//     score = score + x;
-//     console.log(score)
-// });
-
 var score = 2;
 
-// function sleek(num){
-    
-//     for (let index = 0; index < num.length; index++) {
-//         console.log('h')
-//     }
-// }
+let dope = [1,2,3,4,5,6,7]
+
+let now = dope.forEach((x,y) => {
+    score = score + x;
+    console.log(score)
+});
+
+
 
 // sleek(7)
 let num = [7,2,3,4,2,5]
 
-let sleek = num.forEach((x,y) => {
+let sleek = (x,y) => {
+    
     score = score + x;
-});
+    if (score % 3 || score % 5 == 0) {
+        console.log('FizzBuzz')
+    }else if (score % 3){
+        console.log('Fizz')
+    }else if(score % 5){
+        console.log('Buzz')
+    }else{
+        console.log('none')
+    }
 
-console.log(score)
+};
+
+sleek(7)
+
+
+
 // Finish project today
