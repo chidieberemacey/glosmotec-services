@@ -25,37 +25,51 @@ adminOne.deleteUser(userOne.lastname)
 userOne.logout()
 userTwo.login()
 
-var score = 2;
+// var score = 2;
 
-let dope = [1,2,3,4,5,6,7]
+// let dope = [1,2,3,4,5,6,7]
 
-let now = dope.forEach((x,y) => {
-    score = score + x;
-    console.log(score)
-});
+// let now = dope.forEach((x,y) => {
+//     score = score + x;
+//     console.log(score)
+// });
 
 
 
 // sleek(7)
-let num = [7,2,3,4,2,5]
+// let num = [7,2,3,4,2,5]
+document.querySelector('#btn').addEventListener('click', sleek)
 
-let sleek = (x,y) => {
-    
-    score = score + x;
-    if (score % 3 || score % 5 == 0) {
-        console.log('FizzBuzz')
-    }else if (score % 3){
-        console.log('Fizz')
-    }else if(score % 5){
-        console.log('Buzz')
+function sleek(){
+    let score = document.getElementById('score').value;
+    if(score !== ''){
+        for (let index = 1; index < score; index++) {
+        
+            if (index % 3 == 0 && index % 5 == 0) {
+                console.log('FizzBuzz')
+            }else if (index % 3 == 0){
+                console.log('Fizz')
+            }else if (index % 5 == 0){
+                console.log('Buzz')
+            }else{
+                console.log(index)
+            }
+        }
     }else{
-        console.log('none')
+        console.log('No Input')
     }
 
 };
 
-sleek(7)
 
 
 
-// Finish project today
+
+
+
+
+
+
+
+
+
