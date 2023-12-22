@@ -38,7 +38,8 @@ userTwo.login()
 
 // sleek(7)
 // let num = [7,2,3,4,2,5]
-document.querySelector('#btn').addEventListener('click', sleek)
+let button = document.querySelector('#btn');
+button.addEventListener('click', sleek)
 
 function sleek(){
     let score = document.getElementById('score').value;
@@ -65,11 +66,9 @@ let date = new Date();
 
 console.log(date)
 
+let dope = ('sweet potato that is made nice')
 
+console.log(dope.slice(3,9))
 
-
-
-
-
-
+console.log(dope.split())
 
