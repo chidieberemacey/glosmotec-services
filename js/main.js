@@ -66,9 +66,9 @@ let date = new Date();
 
 console.log(date)
 
-let dope = ('sweet potato that is made nice')
+let dope = ('sweet, potato, that, is, made, nice')
 
 console.log(dope.slice(3,9))
 
-console.log(dope.split())
+console.log(dope.split(','))
 
