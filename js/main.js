@@ -72,3 +72,8 @@ console.log(dope.slice(3,9))
 
 console.log(dope.split(','))
 
+setTimeout(
+    button.click = function(){
+    console.log('make more money')
+}
+, 5000)
