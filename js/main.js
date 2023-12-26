@@ -78,5 +78,11 @@ setTimeout(
   }
 , 3000)
 
+let today = 'boxing day'
+if(today){
+    console.log(`It's a new ${today} ${date}`)
+}else{
+    console.log('Sorry, Not today')
+}
 
 // setTimeout(button.click, 5000)
