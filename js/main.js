@@ -85,4 +85,5 @@ if(today){
     console.log('Sorry, Not today')
 }
 
+let beautiful = 'macey';
 // setTimeout(button.click, 5000)
