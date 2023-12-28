@@ -70,7 +70,8 @@ let dope = ('sweet, potato, that, is, made, nice')
 
 console.log(dope.slice(3,9))
 
-console.log(dope.split(','))
+let vial = dope.split(',')
+console.log(vial)
 
 setTimeout(
   button.click = function(){
@@ -85,5 +86,26 @@ if(today){
     console.log('Sorry, Not today')
 }
 
-let beautiful = 'macey';
+let beautiful = ['Macey','Yolo','Skyla'];
+
+function sweet(){
+    for (let index = 0; index < vial.length; index++) {
+        const element = vial[index];
+        console.log(element)
+        
+        if(element == beautiful.length){
+            beautiful.length = 0;
+            
+        }
+        console.log('This is ' + beautiful[index]);        
+    }
+}
+
+sweet();
 // setTimeout(button.click, 5000)
+
+
+
+
+
+
