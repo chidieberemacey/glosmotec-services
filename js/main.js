@@ -104,7 +104,12 @@ function sweet(){
 sweet();
 // setTimeout(button.click, 5000)
 
+let doppleganger = new Set();
 
+doppleganger.add('dome').add('skyscraper').add('dome')
+console.log(doppleganger)
+
+console.log(...beautiful)
 
 
 
