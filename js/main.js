@@ -110,6 +110,7 @@ doppleganger.add('dome').add('skyscraper').add('dome')
 console.log(doppleganger)
 
 console.log(...beautiful)
+console.log(beautiful)
 
 
 
