@@ -102,7 +102,6 @@ function sweet(){
 }
 
 sweet();
-// setTimeout(button.click, 5000)
 
 let doppleganger = new Set();
 
