@@ -103,6 +103,10 @@ function sweet(){
 
 sweet();
 
+var christmas = '25th December'
+christmas = christmas.toLowerCase();
+console.log(christmas)
+
 let doppleganger = new Set();
 
 doppleganger.add('dome').add('skyscraper').add('dome')
