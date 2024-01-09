@@ -93,10 +93,10 @@ function sweet(){
         const element = vial[index];
         console.log(element)
         
-        // if(element == beautiful.length){
-        //     beautiful.length = 0;
+        if(element == beautiful.length){
+            beautiful.length = 0;
             
-        // }
+        }
         console.log('This is ' + beautiful[index]);        
     }
 }
