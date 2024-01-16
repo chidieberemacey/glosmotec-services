@@ -108,7 +108,7 @@ christmas = christmas.toLowerCase();
 console.log(christmas)
 let display = 'sup';
 document.createElement('h3').innerText = christmas;
-console.log(display)
+console.log(display, 'slope')
 
 let doppleganger = new Set();
 
