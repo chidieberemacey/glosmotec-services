@@ -107,7 +107,7 @@ var christmas = '25th December'
 christmas = christmas.toLowerCase();
 console.log(christmas)
 let display = 'sup';
-document.createElement('h3').innerText = christmas;
+
 console.log(display, 'slope')
 
 let doppleganger = new Set();
@@ -118,6 +118,6 @@ console.log(doppleganger)
 // console.log(...beautiful)
 console.log(beautiful)
 
-
+let work = document.getElementsByClassName('#classy')
 
 
