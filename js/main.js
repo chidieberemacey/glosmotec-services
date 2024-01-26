@@ -25,14 +25,14 @@ adminOne.deleteUser(userOne.lastname)
 userOne.logout()
 userTwo.login()
 
-// var score = 2;
+var score = 2;
 
-// let dope = [1,2,3,4,5,6,7]
+let zeez = [1,2,3,4,5,6,7]
 
-// let now = dope.forEach((x,y) => {
-//     score = score + x;
-//     console.log(score)
-// });
+let now = zeez.forEach((x,y) => {
+    score = score + x;
+    console.log(score)
+});
 
 
 
