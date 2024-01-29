@@ -115,7 +115,7 @@ let doppleganger = new Set();
 doppleganger.add('dome').add('skyscraper').add('dome')
 console.log(doppleganger)
 
-// console.log(...beautiful)
+console.log(...beautiful)
 console.log(beautiful)
 
 let work = document.getElementsByClassName('#classy')
