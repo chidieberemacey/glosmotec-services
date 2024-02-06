@@ -120,6 +120,5 @@ console.log(beautiful)
 
 let work = document.getElementsByClassName('#classy')
 
-let getGoing;
-getGoing = () => Math.sqrt(25);
+let getGoing = () => Math.sqrt(625);
 console.log(getGoing())
