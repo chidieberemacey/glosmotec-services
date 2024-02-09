@@ -120,5 +120,5 @@ console.log(beautiful)
 
 let work = document.getElementsByClassName('#classy')
 
-let getGoing = () => Math.sqrt(625);
-console.log(getGoing())
+let getGoing = (tofu) => Math.sqrt(tofu);
+console.log(getGoing(625))
