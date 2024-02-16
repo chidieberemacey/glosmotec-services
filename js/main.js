@@ -119,5 +119,3 @@ console.log(...beautiful)
 console.log(beautiful)
 
 let work = document.getElementsByClassName('#classy')
-
-console.log('Happy yo')
