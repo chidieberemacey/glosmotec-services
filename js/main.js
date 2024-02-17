@@ -117,5 +117,3 @@ console.log(doppleganger)
 
 console.log(...beautiful)
 console.log(beautiful)
-
-let work = document.getElementsByClassName('#classy')
