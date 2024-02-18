@@ -117,3 +117,7 @@ console.log(doppleganger)
 
 console.log(...beautiful)
 console.log(beautiful)
+
+
+let swiss = 6;
+console.log(swiss.toString())
